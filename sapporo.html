@@ -1,0 +1,288 @@
+<html>
+<head>
+<title>Sapporo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.navbar {
+  overflow: hidden;
+  background:rgba(89,128,186,.59);
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  padding: 15px 25px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #f27c7c;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dae4f2;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #edc5ca;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+body {
+  background-image: url('japan3.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+* {box-sizing: border-box}
+body {font-family: Impact;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black; font-size:25; color:white; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="homepage.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Places </button>
+    <div class="dropdown-content">
+      <a href="tokyo.html">Tokyo</a>
+      <a href="kyoto.html">Kyoto</a>
+      <a href="sapporo.html">Sapporo</a>
+	  <a href="osaka.html">Osaka</a>
+	  <a href="nagoya.html">Nagoya</a>
+    </div>
+  </div>
+  <a href="contact.html">Contact Us</a>
+	<li style="float:right"><a href="about.html">About</a></li>
+</div>
+<div style="float:center;margin:auto; max-width: 1100px; padding: 25px; background:rgba(255,255,255,.5); box-shadow: 0 5px 5px rgba(0,0,0,.5);">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+<div align = "center" style="-webkit-text-stroke-width: 1.5px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:50; color:white">Odori Park</div>
+ <br>
+  <div align = "center" style="-webkit-text-stroke-width: 1.1px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:25; color:white">Odori Park (Ōdōri Kōen) is an oasis of green in Sapporo's downtown core that slices through the city.
+ It stands in stark contrast to the high-rises and offices around it, 
+ and serves as the best place from which to begin exploring this dynamic destination.</div>
+  <div class="numbertext">1/5</div>
+  <img src="sapporo1.jpg" style="width:100%">
+  <div class="text">Odori Park</div>
+</div>
+
+<div class="mySlides fade">
+  <div align = "center" style="-webkit-text-stroke-width: 1.5px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:50; color:white">Jozankei Onsen Hot Spring</div>
+ <br>
+  <div align = "center" style="-webkit-text-stroke-width: 1.1px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:25; color:white">Less than an hour's drive from Sapporo is the spectacular Jozankei Onsen Hot Springs.
+ A trip here is a great summer or winter excursion that is well worth the time,
+ especially if it can be combined with a stopover at one of the area's many fine spa hotels. 
+ Tucked away in a scenic valley with mountains adding to the spectacular scenery,</div>
+  <div class="numbertext">2/5</div>
+  <img src="sapporo2.jpg" style="width:100%">
+  <div class="text">Jozankei Onsen Hot Spring</div>
+</div>
+
+<div class="mySlides fade">
+  <div align = "center" style="-webkit-text-stroke-width: 1.5px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:50; color:white">Shikotsu-Tōya National Park</div>
+ <br>
+  <div align = "center" style="-webkit-text-stroke-width: 1.1px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:25; color:white">The Shikotsu-Tōya National Park (Shikotsu Tōya Kokuritsu Kōen)
+ near Sapporo contains in its three separate parts a wide range of beautiful volcanic landscapes, along with many crater lakes and hot springs.
+ The largest section of the National Park lies at the very gates of Sapporo, making it an ideal day trip just an hour's bus ride away.</div>
+  <div class="numbertext">3/5</div>
+  <img src="sapporo3.jpg" style="width:100%">
+  <div class="text">Shikotsu-Tōya National Park</div>
+</div>
+
+<div class="mySlides fade">
+  <div align = "center" style="-webkit-text-stroke-width: 1.5px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:50; color:white">Maruyama Park</div>
+ <br>
+  <div align = "center" style="-webkit-text-stroke-width: 1.1px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:25; color:white">On the west side of Sapporo is Maruyama Park (Maruyama kōen),
+ a multipurpose natural area popular with visitors year-round. In spring, the park's 226-meter-high hill comes alive with the stunningly 
+ beautiful blooms of its more than 1,700 wild cherry trees.</div>
+  <div class="numbertext">4/5</div>
+  <img src="sapporo4.jpg" style="width:100%">
+  <div class="text">Maruyama Park</div>
+</div>
+
+<div class="mySlides fade">
+  <div align = "center" style="-webkit-text-stroke-width: 1.5px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:50; color:white">Hokkaidō Shrine</div>
+ <br>
+  <div align = "center" style="-webkit-text-stroke-width: 1.1px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:25; color:white">Built in 1871, the Hokkaidō Shrine (Hokkaidō Jingū)
+ is one of the country's most important (and visited) Shinto religious sites. Located adjacent to Maruyama Park,
+ the shrine became even more popular after it was dedicated to the soul of much revered Emperor Meiji in 1964.</div>
+  <div class="numbertext">5/5</div>
+  <img src="sapporo5.jpg" style="width:100%">
+  <div class="text">Hokkaidō Shrine</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>

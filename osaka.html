@@ -1,0 +1,291 @@
+<html>
+<head>
+<title>Osaka</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.navbar {
+  overflow: hidden;
+  background:rgba(89,128,186,.59);
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  padding: 15px 25px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #f27c7c;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dae4f2;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #edc5ca;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+body {
+  background-image: url('japan3.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+* {box-sizing: border-box}
+body {font-family: Impact;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black; font-size:25; color:white; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="homepage.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Places </button>
+    <div class="dropdown-content">
+      <a href="tokyo.html">Tokyo</a>
+      <a href="kyoto.html">Kyoto</a>
+      <a href="sapporo.html">Sapporo</a>
+	  <a href="osaka.html">Osaka</a>
+	  <a href="nagoya.html">Nagoya</a>
+    </div>
+  </div>
+  <a href="contact.html">Contact Us</a>
+	<li style="float:right"><a href="about.html">About</a></li>
+</div>
+<div style="float:center;margin:auto; max-width: 1100px; padding: 25px; background:rgba(255,255,255,.5); box-shadow: 0 5px 5px rgba(0,0,0,.5);">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+<div align = "center" style="-webkit-text-stroke-width: 1.5px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:50; color:white">Osaka Castle</div>
+ <br>
+  <div align = "center" style="-webkit-text-stroke-width: 1.1px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:25; color:white">Osaka Castle (Ōsaka-jō) was completed in 1586 and took just three years to build.
+ Ordered built by famed Japanese warrior and politician Toyotomi Hideyoshi it was, at the time, the largest castle in Japan.
+ Almost all Hideyoshi's military commanders were required to contribute stones for its construction, the largest being the Higo-ishi stone,
+ near the south entrance. Standing nearly six meters high and 14.5 meters long, it was contributed to by the celebrated General Kato Kiyomasa 
+ from the island of Shodo.</div>
+  <div class="numbertext">1/5</div>
+  <img src="osaka1.jpg" style="width:100%">
+  <div class="text">Osaka Castle</div>
+</div>
+
+<div class="mySlides fade">
+  <div align = "center" style="-webkit-text-stroke-width: 1.5px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:50; color:white">Universal Studios Japan</div>
+ <br>
+  <div align = "center" style="-webkit-text-stroke-width: 1.1px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:25; color:white">One of the city's newest attractions, 
+ and quickly becoming one of the top things to do in Osaka, Universal Studios Japan is also one of the city's busiest sites,
+ attracting around 10 million visitors each year. One of five Universal theme parks worldwide,
+ the Osaka location offers a number of well-known pop-culture franchises, along with a few unique to the location.</div>
+  <div class="numbertext">2/5</div>
+  <img src="osaka2.jpg" style="width:100%">
+  <div class="text">Universal Studios Japan</div>
+</div>
+
+<div class="mySlides fade">
+  <div align = "center" style="-webkit-text-stroke-width: 1.5px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:50; color:white">Tenmangu Shrine and the Tenjin Festival</div>
+ <br>
+  <div align = "center" style="-webkit-text-stroke-width: 1.1px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:25; color:white">Osaka also happens to be the host city of one of Japan's largest annual festivals. 
+ The Tenjin Festival (Tenjin Matsuri) has been held here for more than 1,000 years on the same date,
+ July 24 and 25. It features colourful processions held both on land and on water and culminates with a spectacular fireworks display.</div>
+  <div class="numbertext">3/5</div>
+  <img src="osaka3.jpg" style="width:100%">
+  <div class="text">Tenmangu Shrine and the Tenjin Festival</div>
+</div>
+
+<div class="mySlides fade">
+  <div align = "center" style="-webkit-text-stroke-width: 1.5px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:50; color:white">Shitennō-ji Temple</div>
+ <br>
+  <div align = "center" style="-webkit-text-stroke-width: 1.1px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:25; color:white">Shitennō-ji is Osaka's best-known temple and can trace its roots back to AD 59.
+ It was also Japan's first Buddhist temple. Although rebuilt numerous times through the centuries (the most recent reconstruction took place in the 1960s),
+ this lovely temple remains the oldest such religious site to be officially administered.</div>
+  <div class="numbertext">4/5</div>
+  <img src="osaka4.jpg" style="width:100%">
+  <div class="text">Shitennō-ji Temple</div>
+</div>
+
+<div class="mySlides fade">
+  <div align = "center" style="-webkit-text-stroke-width: 1.5px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:50; color:white">Osaka Aquarium Kaiyukan</div>
+ <br>
+  <div align = "center" style="-webkit-text-stroke-width: 1.1px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:25; color:white">Looking a little as if it might be made of giant Lego blocks,
+ the Osaka Aquarium Kaiyukan is well worth exploring. One of the world's biggest such attractions, this walk-through aquarium takes guests
+ on a fascinating tour of a number of marine habitats. These include the Pacific
+ Ocean and Antarctica, along with the Great Barrier Reef and Monterey Bay.</div>
+  <div class="numbertext">5/5</div>
+  <img src="osaka5.jpg" style="width:100%">
+  <div class="text">Osaka Aquarium Kaiyukan</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>

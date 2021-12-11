@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>Homepage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.navbar {
+  overflow: hidden;
+  background:rgba(89,128,186,.59);
+	box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  padding: 15px 25px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #f27c7c;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dae4f2;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #edc5ca;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+body {
+  background-image: url('japan3.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+* {box-sizing: border-box}
+body {font-family: Impact;-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black; font-size:25; color:white; margin:0}
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="homepage.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Places </button>
+    <div class="dropdown-content">
+      <a href="tokyo.html">Tokyo</a>
+      <a href="kyoto.html">Kyoto</a>
+      <a href="sapporo.html">Sapporo</a>
+	  <a href="osaka.html">Osaka</a>
+	  <a href="nagoya.html">Nagoya</a>
+    </div>
+  </div>
+  <a href="contact.html">Contact Us</a>
+	<li style="float:right"><a href="about.html">About</a></li>
+</div>
+<div style="float:center;margin:auto; max-width: 1100px; padding: 25px; background:rgba(255,255,255,.5); box-shadow: 0 5px 5px rgba(0,0,0,.5);">
+<div align = "center" style="-webkit-text-stroke-width: 1.5px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:50; color:white">Welcome to my website!</div>
+ <br>
+<div align = "center" style="-webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:30; color:white">On this website we will take you on a journey in one of the most beautiful country in the world, Japan.
+  We will focus on featured places in Japan. These places will bring us joy, knowledge and practices of their tradition.
+This website will focus on showcasing cities in Japan and their tourist spots providing a simple tour with that I hope you like, enjoy browsing.</div>
+<br>
+<div align = "center" style="-webkit-text-stroke-width: 1.5px; -webkit-text-stroke-color: black;
+ font-family:impact; font-size:40; color:white">Kindly sign up for daily e-mails from us<br> please accomplish this form.</div>
+ <br>
+<form>
+<div align = "center">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="Email">Email:</label><br>
+  <input type="text" id="Email" name="Email"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+
+</body>
+</html>
